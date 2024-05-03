@@ -1,0 +1,9 @@
+../Core/Src/main.c:95:5:main	3
+../Core/Src/main.c:315:6:MX_ETH_Init	2
+../Core/Src/main.c:364:13:MX_I2C1_Init	4
+../Core/Src/main.c:412:6:MX_USART3_UART_Init	5
+../Core/Src/main.c:460:13:MX_GPIO_Init	1
+../Core/Src/main.c:487:5:__io_putchar	1
+../Core/Src/main.c:492:5:__io_getchar	1
+../Core/Src/main.c:505:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/main.c:518:6:Error_Handler	1
