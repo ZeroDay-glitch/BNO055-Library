@@ -61,8 +61,8 @@ all: main-build
 main-build: Prove_libreriaBNO055_CM7.elf secondary-outputs
 
 # Tool invocations
-Prove_libreriaBNO055_CM7.elf Prove_libreriaBNO055_CM7.map: $(OBJS) $(USER_OBJS) C:\Users\remim\STM32CubeIDE\workspace_1.13.2\Prove_libreriaBNO055\CM7\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Prove_libreriaBNO055_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\remim\STM32CubeIDE\workspace_1.13.2\Prove_libreriaBNO055\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Prove_libreriaBNO055_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Prove_libreriaBNO055_CM7.elf Prove_libreriaBNO055_CM7.map: $(OBJS) $(USER_OBJS) C:\Users\remim\git\BNO055-Library\Prove_libreriaBNO055_CM7\STM32H745ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Prove_libreriaBNO055_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\remim\git\BNO055-Library\Prove_libreriaBNO055_CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Prove_libreriaBNO055_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
