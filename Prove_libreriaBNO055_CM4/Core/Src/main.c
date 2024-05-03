@@ -162,7 +162,7 @@ int main(void)
      printf("Stato di calibrazione iniziale: Sys: %d, Gyro: %d, Mag: %d, Accel: %d\r\n",
             initialCalState.sys, initialCalState.gyro, initialCalState.mag, initialCalState.accel);*/
 
-  bno055_vector_t gyr;
+  //bno055_vector_t gyr;
   bno055_vector_t acc;
   bno055_vector_t mag;
 
@@ -288,15 +288,12 @@ int main(void)
 
 	  	  //printf("\r\n");
 
-	  	 gyr = bno055_getVectorGyroscope();
+	  	 //gyr = bno055_getVectorGyroscope();
 	  	 acc = bno055_getVectorAccelerometer();
 	  	 mag = bno055_getVectorMagnetometer();
-	  	 printf("GYR-x: %+2.2f | y: %+2.2f | z: %+2.2f\r\n", gyr.x,
-	  	 gyr.y, gyr.z);
-	  	 printf("ACC-x: %+2.2f | y: %+2.2f | z: %+2.2f\r\n", acc.x,
-	  	 acc.y, acc.z);
-	  	 printf("MAG-x: %+2.2f | y: %+2.2f | z: %+2.2f\r\n", mag.x,
-	  	 mag.y, mag.z);
+	  	 //printf("GYR-x: %+2.2f | y: %+2.2f | z: %+2.2f\r\n", gyr.x, gyr.y, gyr.z);
+	  	 printf("ACC-x: %+2.2f | y: %+2.2f | z: %+2.2f\r\n", acc.x, acc.y, acc.z);
+	  	 printf("MAG-x: %+2.2f | y: %+2.2f | z: %+2.2f\r\n", mag.x, mag.y, mag.z);
 
 	  	  HAL_Delay(100);
     /* USER CODE END WHILE */

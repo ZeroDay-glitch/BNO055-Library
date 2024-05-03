@@ -6305,7 +6305,7 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000000000477       0x1e C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
                 0x0000000000000495       0x1e C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtn.o
-OUTPUT(Prove_libreriaBNO055_CM7.elf elf32-littlearm)
+OUTPUT(BNO055Library_CM7.elf elf32-littlearm)
 LOAD linker stubs
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc.a
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a
